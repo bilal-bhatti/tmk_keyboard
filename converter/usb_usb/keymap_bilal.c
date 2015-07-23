@@ -32,9 +32,9 @@ const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
 
     /* 1: SpaceFN
-     * ,---.  ,-----------.  ,---------------. ,-------------------. ,-----------.
-     * |   |  |  |  |  |  |  |  |  |Prev|Play| |Next|Mute|Vold|Volu| |   |   |   |
-     * `---'  `-----------'  `---------------' `-------------------' `-----------'
+     * ,---.  ,-----------.  ,---------------. ,-------------------.
+     * |   |  |  |  |  |  |  |  |  |Prev|Play| |Next|Mute|Vold|Volu|
+     * `---'  `-----------'  `---------------' `-------------------'
      * ,-----------------------------------------------------------.
      * |   | F1| F2| F3| F4| F5| F6| F7| F8| F9|F10|F11|F12|Delete |
      * |-----------------------------------------------------------|
@@ -48,7 +48,7 @@ const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      * `-----------------------------------------------------------' `--------------'
      */
     KEYMAP(
-    TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,          PSCR,SLCK,BRK,
+    TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,MPRV,MPLY,MNXT,MUTE,VOLD,VOLU,          PSCR,SLCK,BRK,
     TRNS,F1,  F2,  F3,  F4,  F5,  F6,  F7,  F8,  F9,  F10, F11, F12, DEL,      INS, HOME,PGUP,    TRNS,TRNS,TRNS,TRNS,
     TRNS,TRNS,TRNS,ESC, TRNS,TRNS,TRNS,HOME,UP,  END, PSCR,SLCK,PAUS,INS,      DEL, END, PGDN,    TRNS,TRNS,TRNS,
     TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,PGUP,LEFT,DOWN,RGHT,TRNS,TRNS,     TRNS,                        TRNS,TRNS,TRNS,TRNS,
